@@ -24,9 +24,9 @@
     SKView * skView = (SKView *)self.view;
     
     // Show debug information.
-    skView.showsFPS = YES;
-    skView.showsDrawCount = YES;
-    skView.showsNodeCount = YES;
+    skView.showsFPS = NO;
+    skView.showsDrawCount = NO;
+    skView.showsNodeCount = NO;
   //  skView.showsPhysics = YES;
 
     // Create and configure the scene.
